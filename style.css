@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s ease-in-out;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    width: 100%;
+}
+.header{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255,1);
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(163, 158, 158);
+
+}
+body{
+    background-color: rgba(249, 249, 249, 1);
+}
+body,.container-info,.follow,
+.message,.on-the-web,.on-the-web ul,.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 80px;
+    padding: 40px 0 20px 0;
+}
+.container-info{
+    flex-direction: column;
+    row-gap: 10px;
+    width: 365px;
+    box-shadow: 0 0 15px 2px rgb(163, 158, 158);
+    padding: 10px;
+    border-radius: .5rem;
+}
+.avata{
+    width: 50%;
+}
+.avata img{
+    border-radius: 50%;
+}
+.follow,.message{
+    height: 40px;
+    width: 90%;
+    border-radius: 1rem;
+    cursor: pointer;
+    gap: 5px;
+
+}
+.follow{
+    margin: 20px 0 10px 0;
+    background-color: rgb(44, 44, 101);
+    color: white;
+}
+.message{
+    background-color: rgb(222, 222, 224);
+    color: black;
+}
+.follow:hover,.message:hover{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
+.follow img,.message img{
+    height: 30px;
+    width: 30px;
+}
+.follow p,.message p{
+    font-weight: bold;
+    text-align: center;
+}
+.on-the-web,.on-the-web ul{
+    flex-direction: column;
+}
+.on-the-web,.link,.about-me{
+    width: 90%;
+    margin: 10px;
+}
+.on-the-web span,.link span,.about-me span{
+    width: 100%;
+    font-weight: bold;
+}
+.on-the-web img{
+    width: 20px;
+    height: 20px;
+}
+.on-the-web ul{
+    width: 100%;
+    padding: 10px 0;
+}
+.on-the-web ul a{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid rgb(232 232 232);
+    width: 100%;
+    padding: 20px 0;
+    font-weight: bold;
+    color: rgba(25, 25, 25, 5);
+    cursor: pointer;
+}
+.about-me p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.container-projects{
+    width: 800px;
+    height: 738px;
+    display: flex;
+    flex-direction: column;
+}
+.container-projects span{
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: .5rem;
+    color: white;
+    
+
+}
+.projects{
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: repeat(3,31%);
+    gap: 28px;
+    grid-template-rows: repeat(3,auto);
+}
+.projects div{
+
+}
+
