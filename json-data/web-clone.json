@@ -1,10 +1,5 @@
 [
     {
-      "name": "Ứng dụng quản lý karaoke",
-      "image": "./img/java-app/karaoke.jpg",
-      "description": "đây là ứng dụng sử dụng ...."
-    },
-    {
       "name": "Todo list",
       "image": "./img/web-clone/todolist.png",
       "description": "sử dụng ...."
@@ -34,4 +29,4 @@
       "image": "./img/web-clone/.png",
       "description": "sử dụng ...."
     }
-  ]
+]

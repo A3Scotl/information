@@ -138,7 +138,7 @@ body,.container-info,.follow,
     width: 100%;
 
 }
-.menu li{
+.menu div{
     height: 100%;
     width: max-content;
     text-align: center;
@@ -146,7 +146,7 @@ body,.container-info,.follow,
     cursor: pointer;
     font-weight: bold;
 }
-.menu li:hover{
+.menu div:hover{
    transform: scale(0.9);
    transition: 0.3s ease-out;
 
@@ -178,6 +178,11 @@ body,.container-info,.follow,
     transition: 0.3s;
     opacity: 0.8;
 }
+
+.isselected { /* or any other style you prefer */
+    border-bottom: 1px solid black;
+
+  }
 @media screen and (max-width : 1290px) {
     .projects{
         width: 100%;
