@@ -2,31 +2,27 @@
     {
       "name": "Todo list",
       "image": "./img/web-clone/todolist.png",
-      "description": "sử dụng ...."
+      "description": "...."
     },
     {
       "name": "Playlist",
       "image": "./img/web-clone/playlist.png",
-      "description": "sử dụng ...."
+      "description": "..."
     },
     {
       "name": "Nike Store",
       "image": "./img/web-clone/nikeshop.png",
-      "description": "sử dụng ...."
+      "description": "..."
     },
     {
       "name": "Oders",
-      "image": "./img/web-clone/nhop.png",
-      "description": "sử dụng ...."
+      "image": "./img/web-clone/order.png",
+      "description": "...."
     },
     {
       "name": "Mua vé xem phim",
-      "image": "./img/web-clone/nikep.png",
-      "description": "sử dụng ...."
-    },
-    {
-      "name": "nurasounds",
-      "image": "./img/web-clone/.png",
-      "description": "sử dụng ...."
+      "image": "./img/web-clone/muave.png",
+      "description": "...."
     }
+
 ]
