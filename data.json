@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Ứng dụng quản lý karaoke",
+      "image": "./img/java-app/karaoke.jpg",
+      "description": "đây là ứng dụng sử dụng ...."
+    },
+    {
+      "name": "Todo list",
+      "image": "./img/web-clone/todolist.png",
+      "description": "sử dụng ...."
+    },
+    {
+      "name": "Playlist",
+      "image": "./img/web-clone/playlist.png",
+      "description": "sử dụng ...."
+    },
+    {
+      "name": "Oders",
+      "image": "./img/web-clone/nikes.png",
+      "description": "sử dụng ...."
+    },
+    {
+      "name": "nurasounds",
+      "image": "./img/web-clone/.png",
+      "description": "sử dụng ...."
+    },
+    {
+      "name": "Mua vé xem phim",
+      "image": "./img/web-clone/nikep.png",
+      "description": "sử dụng ...."
+    },
+    {
+      "name": "nurasounds",
+      "image": "./img/web-clone/.png",
+      "description": "sử dụng ...."
+    }
+  ]
